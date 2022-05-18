@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FireFoxTesting(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ParameterizationXml.PracticeRepete">
+        <methods>
+          <include name="crossbrowserTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ParameterizationXml.PracticeRepete -->
+    </classes>
+  </test> <!-- FireFoxTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

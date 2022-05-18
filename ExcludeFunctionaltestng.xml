@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Functional">
+  <test name="FunctionalTest">
+  <groups>
+  <run>
+  <exclude name="Functional"></exclude>
+  </run>
+  </groups>
+    <classes>
+    
+      <class name="GroupingInTestNG.TestCase1"/>
+      <class name="GroupingInTestNG.Testcase2"/>
+      <class name="GroupingInTestNG.TestCase3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
